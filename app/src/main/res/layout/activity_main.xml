@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal"
+    android:background="#DFEAF1"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/title_text"
+        android:id="@+id/my_label"
+        style="@style/Title"/>
+
+    <Button
+        android:text="@string/spotify_streamer_text"
+        android:id="@+id/spotify_streamer_button"
+        android:tag="spotify"
+        style="@style/AppButton" />
+
+    <Button
+        android:text="@string/scores_text"
+        android:id="@+id/scores_button"
+        android:tag="scores"
+        style="@style/AppButton" />
+
+    <Button
+        android:text="@string/library_text"
+        android:id="@+id/library_button"
+        android:tag="library"
+        style="@style/AppButton" />
+
+    <Button
+        android:text="@string/build_it_bigger_text"
+        android:id="@+id/build_it_bigger_button"
+        android:tag="builditbigger"
+        style="@style/AppButton" />
+
+    <Button
+        android:text="@string/xyz_reader_text"
+        android:id="@+id/xyz_reader_button"
+        android:tag="reader"
+        style="@style/AppButton" />
+
+    <Button
+        android:text="@string/capstone_text"
+        android:id="@+id/capstone_button"
+        android:tag="capstone"
+        style="@style/CapstoneButton" />
+
+</LinearLayout>
